@@ -1,7 +1,7 @@
-django-xadmin |Build Status|
-============================
+Opps Admin (fork django-xadmin)
+===============================
 
-.. |Build Status| image:: https://travis-ci.org/sshwsfc/django-xadmin.png?branch=master
+.. image:: https://travis-ci.org/sshwsfc/django-xadmin.png?branch=master
    :target: https://travis-ci.org/sshwsfc/django-xadmin
 
 Drop-in replacement of Django admin comes with lots of goodies, fully extensible with plugin support, pretty UI based on Twitter Bootstrap.

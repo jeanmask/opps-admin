@@ -1,8 +1,8 @@
 include README.md
 include LICENSE
 include MANIFEST.in
-recursive-include xadmin/locale *
-recursive-include xadmin/static/xadmin/css *
-recursive-include xadmin/static/xadmin/js *
-recursive-include xadmin/static/xadmin/vendor *
-recursive-include xadmin/templates *
+recursive-include opps/admin/locale *
+recursive-include opps/admin/static/opps/admin/css *
+recursive-include opps/admin/static/opps/admin/js *
+recursive-include opps/admin/static/opps/admin/vendor *
+recursive-include opps/admin/templates *
