@@ -57,7 +57,7 @@ def xstatic(*tags):
             if tag.startswith('xadmin'):
                 file_type = tag.split('.')[-1]
                 if file_type in ('css', 'js'):
-                    node = "xadmin/%s/%s" % (file_type, tag)
+                    node = "opps/admin/%s/%s" % (file_type, tag)
                 else:
                     raise e
             else:
