@@ -13,13 +13,12 @@ setup(
     include_package_data=True,
     install_requires=[
         'setuptools',
-        'django>=1.4',
+        'opps>=0.2',
         'xlwt',
         'django-crispy-forms>=1.2.3',
-        'django-reversion',
     ],
     zip_safe=True,
-    keywords=['admin', 'django', 'xadmin', 'bootstrap'],
+    keywords=['admin', 'django', 'xadmin', 'bootstrap', 'opps', 'opps-admin'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
