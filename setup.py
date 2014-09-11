@@ -4,9 +4,9 @@ from setuptools import setup, find_packages
 setup(
     name='opps-admin',
     version='0.1',
-    description='Opps Admin, drop-in replacement of Django admin comes with lots of goodies, fully extensible with plugin support, pretty UI based on Twitter Bootstrap.',
+    description='Opps Admin, drop-in replacement of Django admin and widgets for Opps CMS.',
     long_description=open('README.rst').read(),
-    author='sshwsfc',
+    author='YACOWS',
     url='http://www.oppsproject.org',
     download_url='http://github.com/opps/opps-admin/tarball/master',
     packages=find_packages(exclude=('doc', 'docs',)),
@@ -14,11 +14,9 @@ setup(
     install_requires=[
         'setuptools',
         'opps>=0.2',
-        'xlwt',
-        'django-crispy-forms>=1.2.3',
     ],
     zip_safe=True,
-    keywords=['admin', 'django', 'xadmin', 'bootstrap', 'opps', 'opps-admin'],
+    keywords=['admin', 'django', 'opps', 'opps-admin'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
